@@ -14,7 +14,7 @@ int main() {
     int lua_chon;
     do {
         printf("\n+=============================================+\n");
-        printf("|     QUẢN LÝ CHI TIÊU CÁ NHÂN (TERMINAL)     |\n");
+        printf("|     QUẢN LÝ CHI TIÊU CÁ NHÂN                |\n");
         printf("+=============================================+\n");
         printf("| 1. Thêm giao dịch (Thu/Chi)                 |\n");
         printf("| 2. Sửa giao dịch                            |\n");
