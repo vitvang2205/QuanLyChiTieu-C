@@ -1,0 +1,12 @@
+# Bỏ qua các file thực thi (chạy)
+*.exe
+*.o
+QuanLyChiTieu
+
+# Bỏ qua cấu hình riêng của VS Code
+.vscode/
+
+# Tùy chọn: Nếu bạn không muốn đẩy dữ liệu thu/chi thật của mình lên mạng
+# thì bỏ dấu # ở 2 dòng dưới đây để Git bỏ qua file txt.
+# data/giaodich.txt
+# data/ngansach.txt
