@@ -7,8 +7,11 @@
 #include "../include/features.h"
 
 int main() {
-    // Ép Terminal của Windows hiển thị chuẩn tiếng Việt UTF-8
+    // Ép Terminal hiển thị tiếng Việt (Đầu ra)
     SetConsoleOutputCP(CP_UTF8); 
+    
+    // Ép Terminal ghi nhận tiếng Việt từ bàn phím (Đầu vào)
+    SetConsoleCP(CP_UTF8);
 
     taiDuLieu(); 
     int lua_chon;
